@@ -1,12 +1,14 @@
+<!-- whoami penetration testing suite by ruyynn | github.com/ruyynn/whoami | python pentest tool | ethical hacking toolkit | termux hacking tool -->
+
 <div align="center">
-  <img src="whoami-banner.svg" alt="whoami banner" width="100%"/>
+  <img src="whoami-banner.svg" alt="whoami penetration testing suite by ruyynn" width="100%"/>
 </div>
 
 <div align="center">
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![Version](https://img.shields.io/badge/Version-1.3-FF0000?style=for-the-badge)](https://github.com/ruyynn/whoami)
-[![License](https://img.shields.io/badge/License-GPL%20v3-gold?style=for-the-badge&logo=gnu&logoColor=black)](LICENSE)
+[![License](https://img.shields.io/badge/License-GNU%20GPL%20v3-gold?style=for-the-badge&logo=gnu&logoColor=black)](LICENSE)
 [![Stars](https://img.shields.io/github/stars/ruyynn/whoami?style=for-the-badge&logo=github&color=yellow)](https://github.com/ruyynn/whoami)
 [![Forks](https://img.shields.io/github/forks/ruyynn/whoami?style=for-the-badge&logo=github&color=blue)](https://github.com/ruyynn/whoami/forks)
 [![Issues](https://img.shields.io/github/issues/ruyynn/whoami?style=for-the-badge&logo=github&color=red)](https://github.com/ruyynn/whoami/issues)
@@ -26,6 +28,18 @@
 
 ---
 
+> ⚠️ **Disclaimer:** This tool is for **educational and authorized penetration testing only**. Using it against systems without explicit permission is illegal. The author is **not responsible** for any misuse or damage caused by this tool. You are solely responsible for your own actions.
+
+---
+
+# whoami — Penetration Testing Suite by ruyynn
+
+**whoami** is an open-source, all-in-one penetration testing suite written in Python, developed by **ruyynn**. It is designed for security researchers, ethical hackers, and cybersecurity students who need a practical, easy-to-use toolkit without complex setup.
+
+Available at: [https://github.com/ruyynn/whoami](https://github.com/ruyynn/whoami)
+
+---
+
 ## ⚠️ Disclaimer
 
 **whoami** is developed strictly for **educational purposes** and **authorized penetration testing** only.
@@ -42,11 +56,11 @@ By downloading or using whoami, you agree to these terms.
 
 ## About
 
-**whoami** is a multi-platform, all-in-one penetration testing suite written in Python. Built with simplicity and functionality in mind, it brings together the most commonly used tools in a single, easy-to-navigate terminal interface — no complex setup, no scattered scripts.
+**whoami** is a multi-platform, all-in-one penetration testing suite written in Python, created and maintained by **ruyynn**. Built with simplicity and functionality in mind, it brings together the most commonly used tools in a single, easy-to-navigate terminal interface — no complex setup, no scattered scripts.
 
-Whether you're a security researcher conducting authorized audits, a student learning the fundamentals of ethical hacking, or a developer testing your own infrastructure, whoami provides a practical and accessible starting point. It runs natively across Termux (Android), Linux, Windows, and macOS, making it flexible enough for both field and lab environments.
+Whether you're a security researcher conducting authorized audits, a student learning the fundamentals of ethical hacking, or a developer testing your own infrastructure, whoami by ruyynn provides a practical and accessible starting point. It runs natively across Termux (Android), Linux, Windows, and macOS, making it flexible enough for both field and lab environments.
 
-The project is still actively developed, with more advanced modules planned for v2.0.
+The project is actively maintained by ruyynn, with more advanced modules planned for v2.0.
 
 ---
 
@@ -67,8 +81,10 @@ The project is still actively developed, with more advanced modules planned for 
 
 ## Supported Platforms
 
+whoami penetration testing suite supports the following platforms:
+
 - Termux (Android)
-- Linux (Ubuntu / Debian / Kali / Arch)
+- Linux (Ubuntu / Debian / Kali Linux / Arch)
 - Windows (10/11)
 - macOS
 
@@ -118,7 +134,7 @@ Once launched, select your platform and navigate through the interactive menu.
 
 <!-- Replace 'assets/preview.png' with your actual screenshot path after uploading to the repo -->
 <div align="center">
-  <img src="assets/preview.png" alt="whoami main menu preview" width="80%"/>
+  <img src="assets/preview.png" alt="whoami penetration testing suite main menu by ruyynn" width="80%"/>
 </div>
 
 ---
@@ -133,10 +149,10 @@ Once launched, select your platform and navigate through the interactive menu.
 
 ## Author
 
-**ruyynn**
+**whoami** is created and maintained by **ruyynn**.
 
 - GitHub: [github.com/ruyynn](https://github.com/ruyynn)
-- Gmail: [ruyynn25@gmail.com](mailto:ruyynn25@gmail.com)
+- Gmail: [Gmail](mailto:ruyynn25@gmail.com)
 - Facebook: [Facebook](https://facebook.com)
 
 ---
@@ -149,7 +165,7 @@ All contributions are welcome, no matter how small. Here's how you can help:
 - Fork and develop new features
 - Report bugs via [GitHub Issues](https://github.com/ruyynn/whoami/issues)
 - Request features through Issues
-- Contact directly via Gmail or Facebook above
+- Contact ruyynn directly via Gmail or Facebook above
 
 Every contribution means a lot to the continued development of whoami.
 
@@ -157,19 +173,19 @@ Every contribution means a lot to the continued development of whoami.
 
 ## Bug Reports & Questions
 
-Found a bug or have a question? Reach out via:
+Found a bug or have a question about whoami? Reach out via:
 
 | Platform | Link |
 |----------|------|
 | GitHub Issues | [Open an Issue](https://github.com/ruyynn/whoami/issues) |
-| Gmail | [ruyynn25@gmail.com](mailto:ruyynn25@gmail.com) |
+| Gmail | [Click Me](mailto:ruyynn25@gmail.com) |
 | Facebook | [Facebook](https://facebook.com) |
 
 ---
 
 ## Support Development
 
-If this tool has been useful and you'd like to support the development of **whoami v2.0**, donations are available via Saweria:
+If whoami has been useful and you'd like to support the development of **whoami v2.0** by ruyynn, donations are available via Saweria:
 
 <p align="center">
   <a href="https://saweria.co/Ruyynn">
@@ -180,6 +196,8 @@ If this tool has been useful and you'd like to support the development of **whoa
 Donations are never required, but always appreciated.
 
 ---
+
+<!-- SEO keywords: whoami pentest tool, whoami penetration testing, ruyynn github, ruyynn whoami, python hacking tool, termux pentest, ethical hacking python, open source pentest suite, port scanner python, ssh bruteforce tool, dns enumeration python, kali linux tool, cybersecurity toolkit -->
 
 <div align="center">
   <b>whoami v1.3 — by ruyynn</b><br>
